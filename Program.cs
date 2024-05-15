@@ -2,8 +2,8 @@
 
 namespace DNANexus;
 
-// Preconditions: dotnet installed
-// Run the program by opening the terminal and running dotnet run "<filePath>" "<L-number>"
+// Run the program by opening the terminal and running
+// dotnet run "<filePath>" "<L-number>" or DNANexus.exe "<filePath>" "<L-number>"
 class Program
 {
     // Method for program execution
@@ -106,7 +106,7 @@ class Program
         if (transformedScore >= 33 && transformedScore <= 96) {
             return Convert.ToChar(transformedScore).ToString();
         }
-        
+
         // Define a fall back value in case score is not valid
         else {
             return "¥";
